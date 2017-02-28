@@ -1,0 +1,7 @@
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@//192.168.1.50:1521/HIPDB
+    username: HIP_AI_CONF
+    password: hip000
