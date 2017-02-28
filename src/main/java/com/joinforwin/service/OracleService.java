@@ -26,7 +26,7 @@ public class OracleService {
 
     public void queryTest() {
         try {
-            List<Map<String,Object>> list = this.jdbcTemplate.queryForList("select * from Table1");
+            List<Map<String,Object>> list = this.jdbcTemplate.queryForList("select * from AI001_TOPIC");
         }catch (Exception e){
             System.out.println(e);
         }
